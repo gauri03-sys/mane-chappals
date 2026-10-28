@@ -346,6 +346,7 @@ return;
 }
 // FIXED: Added proper protocol structure and routing slashes
 const url = "https://wa.me" + SHOP_WHATSAPP + "?text=" + encodeURIComponent(message);
+
 window.open(url, "_blank", "noopener,noreferrer");
 }
 // Compile bag catalog selections metrics formatting lines for ordering text messages pipelines
